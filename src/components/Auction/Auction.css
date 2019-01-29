@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10% 0;
+    background: rebeccapurple;
+
+    padding: 0;
+}
+
+.navbar ul li a {
+    padding: 10px 20px;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.heading {
+    text-align: center;
+}
+
+.images-group {
+    display: flex;
+    justify-content: space-around;
+}
+.images-group1{
+   display:flex;
+   flex-direction: column;
+}
+.images-group img {
+    width: 20vw;
+    object-fit: contain;
+    object-position: center;
+
+}
